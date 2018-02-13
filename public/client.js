@@ -29,8 +29,11 @@ function takePicture(){
   socket.emit('takePicture');
 }
 	
-function changeColor(){
-	document.getElementById('pictureContainer').style.border-color = document.getElementById("color").value;
+#function changeColor(){
+#	document.getElementById('pictureContainer').style.border-color = document.getElementById("color").value;
+#}
+function redBorder(){
+	document.getElementById('pictureContainer').style.border-color = red;
 }
 
 //-- Addition: This function receives the new image name and applies it to html element.
