@@ -29,9 +29,10 @@ function takePicture(){
   socket.emit('takePicture');
 }
 	
-#function changeColor(){
-#	document.getElementById('pictureContainer').style.border-color = document.getElementById("color").value;
-#}
+//function changeColor(){
+//	document.getElementById('pictureContainer').style.border-color = document.getElementById("color").value;
+//}
+
 function redBorder(){
 	document.getElementById('pictureContainer').style.border-color = red;
 }
