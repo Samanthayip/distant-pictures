@@ -28,6 +28,10 @@ function ledOFF() {
 function takePicture(){
   socket.emit('takePicture');
 }
+	
+function changeColor(color){
+	document.getElementById('pictureContainer').style.border-color = color
+}
 
 //-- Addition: This function receives the new image name and applies it to html element.
 
