@@ -30,7 +30,7 @@ function takePicture(){
 }
 	
 function changeColor(){
-	document.getElementById('pictureContainer').style.border-color = document.getElementById("color").value;;
+	document.getElementById('pictureContainer').style.border-color = document.getElementById("color").value;
 }
 
 //-- Addition: This function receives the new image name and applies it to html element.
