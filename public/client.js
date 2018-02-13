@@ -33,7 +33,6 @@ function changeColor(){
 	document.getElementById('pictureContainer').style.borderColor = document.getElementById("color").value;
 }
 
-
 //-- Addition: This function receives the new image name and applies it to html element.
 
 socket.on('newPicture', function(msg) {
