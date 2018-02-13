@@ -18,14 +18,20 @@
         <button onclick="ledON()">LED ON</button>
         <button onclick="ledOFF()">LED OFF</button>
         <button onclick="takePicture()">Take a picture</button>
-<!--		<p style="color:white;">Choose a color for your border:<
+		<script>
+			function changeColor(){
+				document.getElementById('pictureContainer').style.border-color = document.getElementById("color").value;
+			}
+		</script> 
+		<p style="color:white">Choose a color for your border:</p>
         <select id="color" onchange='changeColor()'>
             <option value='red'>Red</option>
             <option value='blue'>Blue</option>
             <option value='green'>Green</option>
 		</select>
-        </p>
--->
+        
+
+
 		<button onclick="redBorder()">Red Border</button>
 		</br>
         <img src="" id= "pictureContainer" alt="WebCam image  made by the webserver">
