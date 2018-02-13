@@ -4,6 +4,7 @@
         <meta charset="utf8"/>
         <title>Interaction Engine - Hello You!</title>
         <script src="/socket.io/socket.io.js"></script>
+		<script src="client.js"></script>
 		<style> 
 		#pictureContainer{
 			border-style: solid;
@@ -17,7 +18,7 @@
         <button onclick="ledON()">LED ON</button>
         <button onclick="ledOFF()">LED OFF</button>
         <button onclick="takePicture()">Take a picture</button>
-		<p style="color:white;">Choose a filter:
+		<p style="color:white;">Choose a color for your border:
         <select id="color" onchange="changeColor()">
             <option value="red">Red</option>
             <option value="blue">Blue</option>
@@ -26,6 +27,5 @@
         </p>
     </br>
         <img src="" id= "pictureContainer" alt="WebCam image  made by the webserver">
-        <script src="client.js"></script>
     </body>
 </html>
