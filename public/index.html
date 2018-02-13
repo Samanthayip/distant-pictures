@@ -19,7 +19,7 @@
         <button onclick="ledOFF()">LED OFF</button>
         <button onclick="takePicture()">Take a picture</button>
 		<p style="color:white;">Choose a color for your border:
-        <select id="color" onchange="changeColor()">
+        <select id="color" onchange='changeColor('+value+')'>
             <option value="red">Red</option>
             <option value="blue">Blue</option>
             <option value="green">Green</option>
