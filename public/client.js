@@ -30,7 +30,7 @@ function takePicture(){
 }
 	
 function changeColor(){
-	document.getElementById('pictureContainer').body.style.borderColor = document.getElementById("color").value;
+	document.getElementById('pictureContainer').style.borderColor = document.getElementById("color").value;
 }
 
 
