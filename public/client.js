@@ -29,13 +29,10 @@ function takePicture(){
   socket.emit('takePicture');
 }
 	
-//function changeColor(){
-//	document.getElementById('pictureContainer').style.border-color = document.getElementById("color").value;
-//}
-
-function redBorder(){
-	document.getElementById('pictureContainer').border-color = red;
+function changeColor(){
+	document.getElementById('pictureContainer').body.style.border-color = document.getElementById("color").value;
 }
+
 
 //-- Addition: This function receives the new image name and applies it to html element.
 
